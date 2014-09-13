@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#Author: Dillon Yeh
+#Adds commits and pushes to default repository
+git add \--all;
+git commit \-m "$1";
+git push;
